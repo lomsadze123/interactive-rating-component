@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>interactive-rating-component</title>
+</head>
+<body>
+
+    <main class="box">
+        <div class="main">
+            <div class="star"><img src="assets/star.svg" alt="starIcon"></div>
+            <h2>How did we do?</h2>
+            <p class="check">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div id="flex">
+                <p class="num" value="1">1</p>
+                <p class="num" value="2">2</p>
+                <p class="num" value="3">3</p>
+                <p class="num" value="4">4</p>
+                <p class="num" value="5">5</p>
+            </div>
+            <button id="btn">submit</button>
+        </div>
+        <div class="thanks">
+            <div class="new"><img src="assets/illustration.svg" alt="illustration"></div>
+            <p class="check new select" id="rate">You selected <span id="outOf"></span> out of 5</p>
+            <h3>Thank you!</h3>
+            <p class="check new">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
